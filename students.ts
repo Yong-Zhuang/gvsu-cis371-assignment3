@@ -49,12 +49,12 @@ function orderByName(a: Student, b: Student): number {
 }
 studentsData.sort(orderByName);
 // Task #1. Rewrite the provided sort function using a Lambda (or Fat Arrow) function with an implicit return:
-studentsData.sort(/*You code*/);
+// studentsData.sort(/*You code*/);
+console.log("Sort all students by name", studentsData);
 
 // Task #2. Use .every() to determine if all students are older than 18.
 // Expected output:
 // Are all students older than 18? true
-
 const allAdults = studentsData.every(/*You code*/);
 console.log("Are all students older than 18?", allAdults);
 
@@ -118,19 +118,19 @@ console.log("Student with the most courses", mostCourses.name);
 // Charlie has taken 2 courses.
 // David has taken 1 course.
 // Eve has taken 1 course.
-studentsData./*You code*/
+studentsData./*You code*/;
 
 // Task #11(bonus). List all the titles of the courses taken by students younger than 22. This task requires chaining multiple array functions.
 // Expected output:
 // Courses taken by students younger than 22 [ 'Math', 'History', 'Math', 'Physics', 'Literature' ]
-const coursesByYounger =
-  /*You code*/
-  console.log("Courses taken by students younger than 22", coursesByYounger);
+const coursesByYounger =  /*You code*/;
+console.log("Courses taken by students younger than 22", coursesByYounger);
 
 // Task #12(bonus). List all unique courses taken by the students using .flatMap() and Set(): a Set is an Array with no duplicate values.
 // Expected output:
 // Unique courses [ 'Math', 'History', 'Chemistry', 'Physics', 'Biology', 'Literature' ]
-const uniqueCourses = /*You code*/ console.log("Unique courses", uniqueCourses);
+const uniqueCourses = /*You code*/ ;
+console.log("Unique courses", uniqueCourses);
 
 // Task #13(bonus). Find the student who has the highest total credit hours using .reduce()
 // Expected output:

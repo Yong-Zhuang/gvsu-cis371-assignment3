@@ -130,3 +130,5 @@ dmypy.json
 
 *.npy
 answer
+node_modules
+package-lock.json
